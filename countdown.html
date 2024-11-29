@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body class="bg-gradient-to-r from-fuchsia-700 from-10% via-purple-700 via-60% to-slate-800 to-100%">
+    <header class="">
+        <div class="mainHeader flex justify-between items-center py-3 bg-slate-700 text-white px-3 ">
+            <div class="logo">
+                Logo
+            </div>
+            <nav class="">
+                <div class="navbar">
+                    <ul class="navbarUl  flex ">
+                        <li class="navbarUl px-3">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="navbarUl pl-3">
+                            <a href="">About</a></li>
+                        <li class="navbarUl pl-3">
+                            <a href="">Services</a>
+                        </li>
+                        <li class="navbarUl pl-3">
+                            <a href=""> Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="pl-3 pr-1 sideBtn ">
+                        <i class="fa-solid fa-bars"></i>
+
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="sideNav absolute w-48 h-screen top-0 left-0 right-0 bg-slate-700 text-white flex flex-col py-3 px-3 gap-3 hidden  ">
+            <div class="logo flex justify-between">
+                <p> Logo</p>
+                <div class="cancel"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+
+
+            <nav class="">
+                <div class="navbar ">
+                    <ul class="list-none flex flex-col gap-2  ">
+                        <li class="">
+                            <a href=" ">Home</a>
+                        </li>
+                        <li class=" ">
+                            <a href=" ">About</a></li>
+                        <li class=" ">
+                            <a href=" ">Services</a>
+                        </li>
+                        <li class=" ">
+                            <a href=" "> Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="countdown">
+            <div class="image">
+                <img src="daylight-environment-forest-459225.jpg" class="lg:w-2/4" alt="">
+            </div>
+            <div class="infoPage mx-1 my-4">
+                <span class="text-xl text-white cursor-pointer font-bold hover:bg-rose-500 p-2 rounded-lg m-1">Visit Free</span>
+                <p class="infoFree font-semibold text-lg mt-3"></p>
+                <p>consectetur adipisicing elit. Minima distinctio nesciunt voluptate porro error veniam quos sed neque deserunt perspiciatis.</p>
+                <div class="deadline">
+                    <div class="formats flex gap-1 px-2">
+                        <div class="days border bg-slate-700 text-white font-semibold text-xl">
+                            <div class="items text-center"></div>
+                            <span class="px-2">Days</span>
+                        </div>
+
+                        <div class="hour days border bg-slate-700 text-white font-semibold text-xl">
+                            <div class="items text-center"></div>
+                            <span class="p-2">Hrs</span>
+                        </div>
+                        <div class="minutes days border bg-slate-700 text-white font-semibold text-xl">
+                            <div class="items text-center "></div>
+                            <span class="p-2">Min</span>
+                        </div>
+                        <div class="second days border bg-slate-700 text-white font-semibold text-xl">
+                            <div class="items text-center"></div>
+                            <span class="p-2">Sec</span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+    </main>
+    <script src="countdown.js "></script>
+</body>
+
+
+</html>
